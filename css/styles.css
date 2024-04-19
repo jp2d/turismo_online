@@ -1,0 +1,130 @@
+body,
+ul,
+li {
+    font-family: tahoma;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 222, 199);
+}
+
+header {
+    background-color: rgb(225, 222, 199);
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    width: 100%;
+    background-color: rgb(240, 178, 7);
+    display: inline-block;
+    padding: 2px 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.label {
+    color: rgb(0, 0, 0);
+}
+
+.banner {
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner img {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.newItem {
+    background-color: rgb(225, 222, 199);
+    padding: 5px 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.newItem:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#nomeProduto {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#tipoProduto {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#valorProduto {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#descricaoProduto {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#newPrice {
+    margin: 0;
+    border: 1px solid rgb(35, 32, 24);
+    width: 5%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.addBtn {
+    padding: 9px 10px;
+    background-color: rgb(35, 32, 24);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.addBtn:hover {
+    background-color: #2ab53a;
+    color: white;
+}
+
+.items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.close:hover {
+    color: #f44336;
+    font-weight: bolder;
+}
+
+.carrocel img {
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
